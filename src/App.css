@@ -1,0 +1,95 @@
+
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.Menu {
+  background: rgba(207, 207, 207, 0.342);
+  width: 200px;
+  height: 100%;
+  color: inherit;
+  border-radius: 6px;
+  position: absolute;
+  margin: 0;
+}
+
+
+.Menu .selected{
+  background: rgb(3, 3, 126);
+  border-radius: 6px;
+  color: #FFF;
+
+}
+
+.Menu li:hover {
+  background: rgba(65, 65, 65, 0.342);
+  color: #FFF;
+  border-radius: 6px;
+  
+}
+.Menu ul {
+  list-style: none;
+}
+
+.Nav {
+  width: 390px;
+  background: rgba(177, 176, 176, 0.342); 
+  border-radius: 25px;
+  position: relative;
+  left:500px;
+  top: 50px;
+  margin-bottom: 50px;
+}
+
+.Nav li{
+  color: #FFF;
+  display: inline-block;
+  padding: 10px;
+  text-decoration: none;
+  border-radius: 20px;
+  
+}
+
+#btn-tasks {
+  position: absolute;
+  left: 1100px;
+}
+
+.Nav-selected{
+  background: rgb(3, 3, 126);
+  
+  width: 75px;
+
+}
+
+.cells {
+  position: absolute;
+  padding: 0 10px;
+  margin: 0 10px;
+  left: 200px;
+  top: 200px;
+}
+
+.taches {
+  margin: auto;
+  width: 1190px;
+  margin-right: 150px;
+}
+
+.header {
+  position: absolute;
+  padding-bottom: 10px;
+  left: 200px;
+  padding: 0 10px;
+  margin: 0 10px;
+}
+.elt-1:first-child {
+  display: block;
+  padding: 10px;
+  background: rgba(177, 176, 176, 0.342);
+  margin-bottom: 10px;
+  border-radius: 5px;
+  width: 100%;
+  padding-right: 150px;
+}
