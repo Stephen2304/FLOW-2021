@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import firebase from 'firebase';
-import { ImCheckboxUnchecked } from "react-icons/im";
 
 require('firebase/auth');
 require('firebase/database');
